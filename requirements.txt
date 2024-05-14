@@ -1,0 +1,22 @@
+# AI Service
+google-cloud-aiplatform==1.33.1
+langchain==0.0.302
+openapi-schema-pydantic==1.2.4
+jsonpickle==3.0.2  # For pickling AI Tool objects right now
+# TODO: chromadb-- to eventually be replaced with Redis
+
+# Should this be in a separate service? Not if these are relatively small.
+openapi_spec_validator==0.6
+# openapi3-parser==1.1.13 TODO: Probably don't need
+
+# ReST Service
+marshmallow==3.20.1
+firebase-admin==6.2.0 # TODO: Replace with google.cloud.X equivalents
+
+# Shared
+Flask==2.3.3
+flask_restx==1.1.0
+requests==2.31
+PyYAML==6.0.1
+
+# TODO: Shared private github repo code like custom decorators and auth stuff
